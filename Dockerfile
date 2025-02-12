@@ -1,6 +1,5 @@
 # escape=`
-ARG BASE
-FROM mcr.microsoft.com/dotnet/framework/runtime:4.8-windowsservercore-$BASE
+FROM mcr.microsoft.com/dotnet/framework/runtime:4.8.1-20250114-windowsservercore-ltsc2022
 
 ARG DEV_ISO= `
     EXP_EXE= `
